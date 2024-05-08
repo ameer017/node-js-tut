@@ -1,3 +1,6 @@
 1. Explore Express documentation and installation cli --> expressjs.com ⬇️
 npm i express
-2. Explore the routing page on express
+2. Explore the routing page on express.
+
+
+--> Middleware in Node. js refers to a concept where functions can be used to process incoming requests before they reach their final destination and handle outgoing responses before they are sent back to the client.
