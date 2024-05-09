@@ -4,3 +4,11 @@ npm i express
 
 
 --> Middleware in Node. js refers to a concept where functions can be used to process incoming requests before they reach their final destination and handle outgoing responses before they are sent back to the client.
+
+cors : Enable cross-origin resource sharing (CORS) with various options.
+
+cookie-parser : Parse cookie header and populate req.cookies.
+
+morgan : HTTP requests logger.
+
+multer : Handle multi-part form data.
