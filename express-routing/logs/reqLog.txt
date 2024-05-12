@@ -13,3 +13,6 @@
 20240512	08:56:05	79a97144-6d7a-49c3-86b5-fb879edff6a9	GET	undefined	/new-page.html
 20240512	08:56:05	c1f727af-b1a4-4c20-acad-9ede845a1c3d	GET	undefined	/css/style.css
 20240512	08:56:05	94b92e65-8e54-4ff6-8502-3d5902af053c	GET	undefined	/img/img1.jpg
+20240512	09:04:14	76ac8d01-fd47-4ee0-a732-25884f2feeef	GET	undefined	/employees
+20240512	09:05:14	657039e0-36cc-485e-a5d8-54017eb3c877	GET	undefined	/employees
+20240512	09:05:33	d061c338-612d-455f-8a7a-10e5584b411c	GET	undefined	/employees

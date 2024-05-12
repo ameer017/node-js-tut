@@ -1,0 +1,2 @@
+20240512	09:04:14	5a5146f4-85d9-4c03-91c3-ce73e278f20a	RangeError: Invalid status code: /Users/mac/Desktop/MY-WEB-PROJECTS/cohort4.0-js-class/node/express-routing/routes/data/employees.json
+20240512	09:05:14	964b52e7-93d9-401a-a8d9-d12191d2c60e	Error: ENOENT: no such file or directory, stat '/Users/mac/Desktop/MY-WEB-PROJECTS/cohort4.0-js-class/node/express-routing/routes/data/employees.json'
