@@ -1,13 +1,13 @@
 {
-  "name": "07tut",
+  "name": "express-routing",
   "version": "1.0.0",
-  "description": "Express tutorial",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "start": "node server",
     "dev": "nodemon server"
   },
-  "author": "Dave Gray",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
