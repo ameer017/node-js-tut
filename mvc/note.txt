@@ -1,0 +1,20 @@
+--> MVC stands for Model-View-Controller. It's a design pattern commonly used to structure web applications.
+
+    --> Model: The model represents the data of the application and the logic to manipulate that data. In an Express.js application, the model typically interacts with the database or any other data source to perform CRUD (Create, Read, Update, Delete) operations. Models encapsulate the application's business logic and data access logic.
+    
+    --> View: The view is responsible for rendering the user interface based on the data provided by the controller. In Express.js, views are often implemented using template engines like Pug (formerly Jade), EJS, Handlebars, etc. Views generate HTML markup dynamically based on the data received from the controller and send the rendered HTML to the client's browser.
+    
+    --> Controller: The controller acts as an intermediary between the model and the view. It receives requests from the client, processes them (usually by interacting with the model), and then decides which view to render with the processed data. Controllers handle the application's routing logic and orchestrate the flow of data between the model and the view.
+
+
+    Let's break down the expression id: data.employees[data.employees.length - 1].id + 1 || 1:
+
+* data.employees: This accesses the employees property of the data object. Assuming data is an object with an employees property that holds an array of employee objects, data.employees refers to this array.
+
+* [data.employees.length - 1]: This retrieves the last element of the employees array. data.employees.length gives the length of the array, and subtracting 1 gives the index of the last element. So data.employees[data.employees.length - 1] accesses the last element of the array.
+
+* .id: Assuming each employee object has an id property, this accesses the id property of the last employee in the array.
+
+* + 1: This increments the id of the last employee by 1. This is done to generate a unique id for the new employee. If the last employee's id is, for example, 5, then data.employees[data.employees.length - 1].id + 1 will evaluate to 6.
+
+* || 1: This is a logical OR operator. If the expression data.employees[data.employees.length - 1].id + 1 evaluates to a falsy value (such as undefined), the value on the right side of the || operator (1) will be used instead. This ensures that if there are no existing employees (i.e., data.employees is empty), the id for the new employee will be 1, indicating that they are the first employee in the system.
