@@ -1,4 +1,2 @@
-20240512	09:04:14	5a5146f4-85d9-4c03-91c3-ce73e278f20a	RangeError: Invalid status code: /Users/mac/Desktop/MY-WEB-PROJECTS/cohort4.0-js-class/node/express-routing/routes/data/employees.json
-20240512	09:05:14	964b52e7-93d9-401a-a8d9-d12191d2c60e	Error: ENOENT: no such file or directory, stat '/Users/mac/Desktop/MY-WEB-PROJECTS/cohort4.0-js-class/node/express-routing/routes/data/employees.json'
-20240512	09:07:52	ebd0ec48-0a3d-44be-a7e7-3b5158f540e8	SyntaxError: "[object Object]" is not valid JSON
-20240512	09:08:11	7a94a813-756b-470d-b1bd-bc3f8d7bcbe1	TypeError: The "path" argument must be of type string. Received an instance of Object
+20240512	09:51:09	2a519f25-3f24-4e25-b3d4-7de20d6e7483	ReferenceError: id is not defined
+20240512	09:51:34	95ded239-0195-43c5-9106-5942d28b71dc	ReferenceError: firstname is not defined
